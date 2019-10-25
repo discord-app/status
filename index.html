@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://allsystemsoperational.ml/ -->
+<html lang="en" class="gr__status_discordapp_com translated-ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Discord Status</title>
+<meta name="description" content="Welcome to Discord&#39;s home for real-time and historical data on system performance.">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+<meta name="issued" content="1532268546">
+
+<meta http-equiv="cleartype" content="on">
+
+<style>
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaLight-f0b2f7c12b6b87c65c02d3c1738047ea67a7607fd767056d8a2964cc6a2393f7.eot?host=discord.statuspage.io');
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaLight-f0b2f7c12b6b87c65c02d3c1738047ea67a7607fd767056d8a2964cc6a2393f7.eot?host=discord.statuspage.io#iefix') format('embedded-opentype'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaLight-e642ffe82005c6208632538a557e7f5dccb835c0303b06f17f55ccf567907241.woff?host=discord.statuspage.io') format('woff'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaLight-0f094da9b301d03292f97db5544142a16f9f2ddf50af91d44753d9310c194c5f.ttf?host=discord.statuspage.io') format('truetype');
+    font-weight:300;
+    font-style:normal;
+  }
+   
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegular-366d17769d864aa72f27defaddf591e460a1de4984bb24dacea57a9fc1d14878.eot?host=discord.statuspage.io');
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegular-366d17769d864aa72f27defaddf591e460a1de4984bb24dacea57a9fc1d14878.eot?host=discord.statuspage.io#iefix') format('embedded-opentype'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegular-2ee4c449a9ed716f1d88207bd1094e21b69e2818b5cd36b28ad809dc1924ec54.woff?host=discord.statuspage.io') format('woff'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegular-a40a469edbd27b65b845b8000d47445a17def8ba677f4eb836ad1808f7495173.ttf?host=discord.statuspage.io') format('truetype');
+    font-weight:400;
+    font-style:normal;
+  }
+   
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegularIt-0bf83a850b45e4ccda15bd04691e3c47ae84fec3588363b53618bd275a98cbb7.eot?host=discord.statuspage.io');
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegularIt-0bf83a850b45e4ccda15bd04691e3c47ae84fec3588363b53618bd275a98cbb7.eot?host=discord.statuspage.io#iefix') format('embedded-opentype'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegularIt-0c394ec7a111aa7928ea470ec0a67c44ebdaa0f93d1c3341abb69656cc26cbdd.woff?host=discord.statuspage.io') format('woff'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaRegularIt-9e43859f8015a4d47d9eaf7bafe8d1e26e3298795ce1f4cdb0be0479b8a4605e.ttf?host=discord.statuspage.io') format('truetype');
+    font-weight:400;
+    font-style:italic;
+  }
+   
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaSemibold-09566917307251d22021a3f91fc646f3e45f8d095209bcd2cded8a1979f06e54.eot?host=discord.statuspage.io');
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaSemibold-09566917307251d22021a3f91fc646f3e45f8d095209bcd2cded8a1979f06e54.eot?host=discord.statuspage.io#iefix') format('embedded-opentype'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaSemibold-86724fb2152613d735ba47c3f47a9ad2424b898bea4bece213dacee40344f966.woff?host=discord.statuspage.io') format('woff'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaSemibold-cf3e4eb7fbdf6fb83e526cc2a0141e55b01097e6e1abfd4cbdc3eda75d183f74.ttf?host=discord.statuspage.io') format('truetype');
+    font-weight:500;
+    font-style:normal;
+  }
+   
+  @font-face {
+    font-family: 'proxima-nova';
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaBold-622ea489d20e12e691663f83217105e957e2d3d09703707d40155a29c06cc9d9.eot?host=discord.statuspage.io');
+    src: url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaBold-622ea489d20e12e691663f83217105e957e2d3d09703707d40155a29c06cc9d9.eot?host=discord.statuspage.io#iefix') format('embedded-opentype'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaBold-c8dc577ff7f76d2fc199843e38c04bb2e9fd15889421358d966a9f846c2ed1cd.woff?host=discord.statuspage.io') format('woff'),
+         url('https://dka575ofm4ao0.cloudfront.net/assets/ProximaNovaBold-27177fe9242acbe089276ee587feef781446667ffe9b6fdc5b7fe21ad73e12f3.ttf?host=discord.statuspage.io') format('truetype');
+    font-weight:700;
+    font-style:normal;
+  }
+</style>
+<link rel="alternate" type="application/atom+xml" href="https://discord.statuspage.io/history.atom" title="Discord Status History - Atom Feed">
+<link rel="alternate" type="application/rss+xml" href="https://discord.statuspage.io/history.rss" title="Discord Status History - RSS Feed">
+<link rel="alternate" type="application/atom+xml" title="ATOM" href="https://discord.statuspage.io/history.atom">
+<meta name="csrf-token" content="tf9f13+h+b8e72EdzUMThp3dR85KWO72xEr1zzbxXLgyFCP+EpwBDpRssDf9pMhiP/o790FNWG+4CKJZVfu26w==">
+
+<link rel="stylesheet" media="all" href="./resources/style2.css">
+<script type="text/javascript">
+      window.pageColorData = {"blue":"#3498DB","border":"#E0E0E0","body_background":"#ffffff","font":"#737F8D","graph":"#738bd7","green":"#FF0000","light_font":"#99aab5","link":"#738bd7","orange":"#f26522","red":"#f04747","yellow":"#faa61a"};
+    </script>
+<style>
+
+
+
+
+  /* BODY BACKGROUND */ /* BODY BACKGROUND */ /* BODY BACKGROUND */ /* BODY BACKGROUND */ /* BODY BACKGROUND */
+  body,
+  .layout-content.status.status-api .section .example-container .example-opener .color-secondary,
+  .grouped-items-selector,
+  .layout-content.status.status-full-history .history-nav a.current {
+    background-color:#ffffff;
+  }
+
+
+
+
+
+  /* PRIMARY FONT COLOR */ /* PRIMARY FONT COLOR */ /* PRIMARY FONT COLOR */ /* PRIMARY FONT COLOR */
+  body.status,
+  .color-primary,
+  .color-primary:hover,
+  .layout-content.status-index .status-day .update-title.impact-none a,
+  .layout-content.status-index .status-day .update-title.impact-none a:hover,
+  .layout-content.status-index .timeframes-container .timeframe.active,
+  .layout-content.status-full-history .month .incident-container .impact-none,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-none a,
+  .incident-history .impact-none,
+  .layout-content.status .grouped-items-selector.inline .grouped-item.active,
+  .layout-content.status.status-full-history .history-nav a.current,
+  .layout-content.status.status-full-history .history-nav a:not(.current):hover {
+    color:#737F8D;
+  }
+
+  .layout-content.status.status-index .components-statuses .component-container .name {
+    color:#737F8D;
+    color:rgba(115,127,141,.8);
+  }
+
+
+
+
+
+
+  /* SECONDARY FONT COLOR */ /* SECONDARY FONT COLOR */ /* SECONDARY FONT COLOR */ /* SECONDARY FONT COLOR */
+  small,
+  .layout-content.status .table-row .date,
+  .color-secondary,
+  .layout-content.status .grouped-items-selector.inline .grouped-item,
+  .layout-content.status.status-full-history .history-footer .pagination a.disabled,
+  .layout-content.status.status-full-history .history-nav a {
+    color:#99aab5;
+  }
+
+
+
+
+
+
+
+
+
+  /* BORDER COLOR */  /* BORDER COLOR */  /* BORDER COLOR */  /* BORDER COLOR */  /* BORDER COLOR */  /* BORDER COLOR */
+  body.status .layout-content.status .border-color, hr, .tooltip-base, .markdown-display table {
+    border-color:#E0E0E0;
+  }
+
+  .markdown-display table td {
+    border-top-color:#E0E0E0;
+  }
+
+  .markdown-display table td + td, .markdown-display table th + th {
+    border-left-color:#E0E0E0;
+  }
+
+
+
+
+
+
+  /* CSS REDS */ /* CSS REDS */ /* CSS REDS */ /* CSS REDS */ /* CSS REDS */ /* CSS REDS */ /* CSS REDS */
+  .layout-content.status.status-index .status-day .update-title.impact-critical a,
+  .layout-content.status.status-index .status-day .update-title.impact-critical a:hover,
+  .layout-content.status.status-index .page-status.status-critical,
+  .layout-content.status.status-index .unresolved-incident.impact-critical .incident-title,
+  .flat-button.background-red {
+    background-color:#f04747;
+  }
+  .layout-content.status-index .components-statuses .component-container.status-red:after,
+  .layout-content.status-full-history .month .incident-container .impact-critical,
+  .layout-content.status-incident .incident-name.impact-critical,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-critical a,
+  .status-red .icon-indicator,
+  .incident-history .impact-critical,
+  .components-container .component-inner-container.status-red .component-status,
+  .components-container .component-inner-container.status-red .icon-indicator {
+    color:#f04747;
+  }
+
+  .layout-content.status.status-index .unresolved-incident.impact-critical .updates {
+    border-color:#f04747;
+  }
+
+
+
+
+
+
+  /* CSS ORANGES */ /* CSS ORANGES */ /* CSS ORANGES */ /* CSS ORANGES */ /* CSS ORANGES */ /* CSS ORANGES */
+  .layout-content.status.status-index .status-day .update-title.impact-major a,
+  .layout-content.status.status-index .status-day .update-title.impact-major a:hover,
+  .layout-content.status.status-index .page-status.status-major,
+  .layout-content.status.status-index .unresolved-incident.impact-major .incident-title {
+    background-color:#f26522;
+  }
+  .layout-content.status-index .components-statuses .component-container.status-orange:after,
+  .layout-content.status-full-history .month .incident-container .impact-major,
+  .layout-content.status-incident .incident-name.impact-major,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-major a,
+  .status-orange .icon-indicator,
+  .incident-history .impact-major,
+  .components-container .component-inner-container.status-orange .component-status,
+  .components-container .component-inner-container.status-orange .icon-indicator {
+    color:#f26522;
+  }
+
+  .layout-content.status.status-index .unresolved-incident.impact-major .updates {
+    border-color:#f26522;
+  }
+
+
+
+
+
+
+
+/* CSS YELLOWS */ /* CSS YELLOWS */ /* CSS YELLOWS */ /* CSS YELLOWS */ /* CSS YELLOWS */ /* CSS YELLOWS */
+  .layout-content.status.status-index .status-day .update-title.impact-minor a,
+  .layout-content.status.status-index .status-day .update-title.impact-minor a:hover,
+  .layout-content.status.status-index .page-status.status-minor,
+  .layout-content.status.status-index .unresolved-incident.impact-minor .incident-title,
+  .layout-content.status.status-index .scheduled-incidents-container .tab {
+    background-color:#faa61a;
+  }
+  .layout-content.status-index .components-statuses .component-container.status-yellow:after,
+  .layout-content.status-full-history .month .incident-container .impact-minor,
+  .layout-content.status-incident .incident-name.impact-minor,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-minor a,
+  .status-yellow .icon-indicator,
+  .incident-history .impact-minor,
+  .components-container .component-inner-container.status-yellow .component-status,
+  .components-container .component-inner-container.status-yellow .icon-indicator,
+  .layout-content.status.manage-subscriptions .confirmation-infobox .fa {
+    color:#faa61a;
+  }
+
+  .layout-content.status.status-index .unresolved-incident.impact-minor .updates,
+  .layout-content.status.status-index .scheduled-incidents-container {
+    border-color:#faa61a;
+  }
+
+
+
+
+
+
+/* CSS BLUES */ /* CSS BLUES */ /* CSS BLUES */ /* CSS BLUES */ /* CSS BLUES */ /* CSS BLUES */
+  .layout-content.status.status-index .status-day .update-title.impact-maintenance a,
+  .layout-content.status.status-index .status-day .update-title.impact-maintenance a:hover,
+  .layout-content.status.status-index .page-status.status-maintenance,
+  .layout-content.status.status-index .unresolved-incident.impact-maintenance .incident-title,
+  .layout-content.status.status-index .scheduled-incidents-container .tab {
+    background-color:#3498DB;
+  }
+
+  .layout-content.status-index .components-statuses .component-container.status-blue:after,
+  .layout-content.status-full-history .month .incident-container .impact-maintenance,
+  .layout-content.status-incident .incident-name.impact-maintenance,
+  .layout-content.status.status-index .incidents-list .incident-title.impact-maintenance a,
+  .status-blue .icon-indicator,
+  .incident-history .impact-maintenance,
+  .components-container .component-inner-container.status-blue .component-status,
+  .components-container .component-inner-container.status-blue .icon-indicator {
+    color:#3498DB;
+  }
+
+  .layout-content.status.status-index .unresolved-incident.impact-maintenance .updates,
+  .layout-content.status.status-index .scheduled-incidents-container {
+    border-color:#3498DB;
+  }
+
+
+
+
+
+  /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */ /* CSS GREENS */
+  .layout-content.status.status-index .page-status.status-none {
+    background-color:#FF0000;
+  }
+  .layout-content.status-index .components-statuses .component-container.status-green:after,
+  .status-green .icon-indicator,
+  .components-container .component-inner-container.status-green .component-status,
+  .components-container .component-inner-container.status-green .icon-indicator {
+    color:#FF0000;
+  }
+
+
+
+
+  /* CSS LINK COLOR */  /* CSS LINK COLOR */  /* CSS LINK COLOR */  /* CSS LINK COLOR */  /* CSS LINK COLOR */  /* CSS LINK COLOR */
+  a,
+  a:hover,
+  .layout-content.status-index .page-footer span a:hover,
+  .layout-content.status-index .timeframes-container .timeframe:not(.active):hover,
+  .layout-content.status-incident .subheader a:hover {
+    color:#738bd7;
+  }
+  .flat-button,
+  .masthead .updates-dropdown-container .show-updates-dropdown,
+  .layout-content.status-full-history .show-filter.open  {
+    background-color:#738bd7;
+  }
+
+  /* CUSTOM COLOR OVERRIDES FOR UPTIME SHOWCASE */
+  .components-section .components-uptime-link {
+    color: #99aab5;
+  }
+
+  .layout-content.status .shared-partial.uptime-90-days-wrapper .legend .legend-item {
+    color: #99aab5;
+    opacity: 0.8;
+  }
+  .layout-content.status .shared-partial.uptime-90-days-wrapper .legend .legend-item.light {
+    color: #99aab5;
+    opacity: 0.5;
+  }
+  .layout-content.status .shared-partial.uptime-90-days-wrapper .legend .spacer {
+    background: #99aab5;
+    opacity: 0.3;
+  }
+</style>
+
+<link rel="stylesheet" type="text/css" href="./resources/style1.css">
+
+<body class="status index status-none" data-gr-c-s-loaded="true" data-breakpoint-reached="false">
+<div class="status-page-tour-info" data-js-hook="status-page-tour-info" style="display:none">
+<div class="container inner">
+Welcome to the demo status page. <a href="https://status.discord-app.com/" data-js-hook="restart-tour">Take the tour</a>.
+</div>
+</div>
+<div class="layout-content status status-index starter">
+<div class="masthead-container basic">  
+<div class="masthead has-logo">
+<div class="logo-container">
+<a href="https://youtu.be/nn2FB1P_Mn8?t=10s"><img src="./resources/pisscorp.png" alt="Pisscorp"></a>
+</div>
+<div class="updates-dropdown-container" data-js-hook="updates-dropdown-container" style="top: 31.5px;">
+<a href="https://youtu.be/nn2FB1P_Mn8?t=10s" data-js-hook="show-updates-dropdown" id="show-updates-dropdown" class="show-updates-dropdown">
+</a>
+<div class="updates-dropdown" data-js-hook="updates-dropdown" style="display:none">
+<div class="updates-dropdown-nav nav-items-5">
+<a href="https://allsystemsoperational.ml/" id="updates-dropdown-email-btn" class="active">
+<span class="icon-container email">
+</span></a>
+<a href="https://allsystemsoperational.ml/" id="updates-dropdown-webhook-btn">
+<span class="icon-container webhook">
+</span></a>
+<a href="https://allsystemsoperational.ml/" id="updates-dropdown-support-btn">
+<span class="icon-container support">
+</span></a>
+<a href="https://allsystemsoperational.ml/" id="updates-dropdown-atom-btn">
+<span class="icon-container rss">
+</span></a>
+<a href="https://www.youtube.com/watch?v=JbpR3i1rIAs" data-js-hook="updates-dropdown-close" id="updates-dropdown-close-btn">
+x
+</a>
+</div>
+<div class="updates-dropdown-sections-container">
+<div class="updates-dropdown-section email" id="updates-dropdown-email" style="">
+<div class="directions">
+Get email notifications whenever Discord creates or updates an incident.
+</div>
+<form id="subscribe-form-email" action="https://www.youtube.com/watch?v=6VyhgE2Ib0Y" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="✓">
+ 
+<input name="email" id="email" type="text" placeholder="Email Address" class="full-width" data-js-hook="email-notification-field">
+<input type="submit" value="Subscribe via Email" class="flat-button full-width" id="subscribe-btn-email" data-disabled-text="Subscribing..." data-revert-on-success="true">
+</form> </div>
+<div class="updates-dropdown-section webhook" id="updates-dropdown-webhook" style="display:none">
+<div class="directions">
+Get webhook notifications whenever Discord creates an incident, updates an incident, or changes a component status.
+</div>
+<form id="subscribe-form-webhook" action="https://www.youtube.com/watch?v=6VyhgE2Ib0Y" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="✓">
+<div class="control-group">
+<div class="controls">
+<input type="text" name="endpoint" id="endpoint-webhooks" placeholder="http://www.yourdomain.com/endpoint/here" data-js-hook="endpoint" class="full-width">
+<p class="help-block">The URL we should send the webhooks to</p>
+</div>
+</div>
+<div class="control-group">
+<div class="controls">
+<input type="text" name="email" id="email-webhooks" placeholder="Email Address" data-js-hook="email" class="full-width">
+<p class="help-block">We'll send you email if your endpoint fails</p>
+</div>
+</div>
+<div class="form-actions">
+<input type="submit" value="Subscribe To Notifications" class="flat-button full-width" id="subscribe-btn-webhook" data-disabled-text="Subscribing..." data-revert-on-success="true">
+</div>
+</form> </div>
+<div class="updates-dropdown-section support" id="updates-dropdown-support" style="display:none">
+Visit our <a target="_blank" href="https://support.discordapp.com/">support site</a>.
+</div>
+<div class="updates-dropdown-section atom" id="updates-dropdown-atom" style="display: none;">
+Get the <a href="https://discord.statuspage.io/history.atom" target="_blank">Atom Feed</a> or <a href="https://discord.statuspage.io/history.rss" target="_blank">RSS Feed</a>.
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+</div>
+</div>
+
+<div class="container">
+<div class="page-status status-none">
+<span class="status font-large">
+Everything is fucked
+</span>
+<span class="last-updated-stamp  font-small"></span>
+</div>
+<div class="components-section font-regular">
+<div class="components-uptime-link history-footer-link">
+It's just a joke - b1nzy don't hammer me <a href="https://discord.gg/dRxXyKt">View hysterical downtime.</a>
+</div>
+<div class="components-container one-column">
+<div class="component-container border-color">
+<div data-component-id="rhznvxg4v7yh" class="component-inner-container status-green showcased" data-component-status="Broken" data-js-hook="">
+<span class="name">
+API
+&nbsp;
+</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+<div class="shared-partial uptime-90-days-wrapper">
+<svg class="availability-time-line-graphic" preserveAspectRatio="none" height="34" viewBox="0 0 448 34">
+<rect height="34" width="3" x="0" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="5" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="10" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+ <rect height="34" width="3" x="15" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="20" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="25" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="30" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="35" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="40" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="45" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="50" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="55" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="60" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="65" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="70" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="75" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="80" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="85" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="90" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="95" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="100" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="105" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="110" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="115" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="120" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="125" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="130" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="135" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="140" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="145" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="150" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="155" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="160" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="165" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="170" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="175" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="180" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="185" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="190" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="195" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="200" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="205" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="210" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="215" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="220" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="225" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="230" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="235" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="240" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="245" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="250" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="255" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="260" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="265" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="270" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="275" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="280" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="285" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="290" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="295" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="300" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="305" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="310" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="315" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="320" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="325" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="330" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="335" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="340" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="345" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="350" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="355" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="360" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="365" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="370" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="375" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="380" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="385" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="390" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="395" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="400" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="405" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="410" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="415" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="420" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="425" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="430" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="435" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="440" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="445" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+</svg>
+<div class="legend ">
+<div class="legend-item light legend-item-date-range"><span class="availability-time-line-legend-day-count">69</span> days ago</div>
+<div class="spacer"></div>
+<div class="legend-item legend-item-uptime-value">
+<span id="uptime-percent-rhznvxg4v7yh">00.01</span> % uptime
+</div>
+<div class="spacer"></div>
+<div class="legend-item light legend-item-date-range">Today</div>
+</div>
+</div>
+</div>
+</div>
+<div class="component-container border-color">
+<div data-component-id="9lgt8qqpcqck" class="component-inner-container status-green showcased" data-component-status="Broken" data-js-hook="">
+<span class="name">
+Gateway
+&nbsp;
+</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+<div class="shared-partial uptime-90-days-wrapper">
+<svg class="availability-time-line-graphic" preserveAspectRatio="none" height="34" viewBox="0 0 448 34">
+<rect height="34" width="3" x="0" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="5" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="10" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="15" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="20" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="25" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="30" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="35" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="40" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="45" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="50" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="55" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="60" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="65" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="70" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="75" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="80" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="85" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="90" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="95" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="100" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="105" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="110" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="115" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="120" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="125" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="130" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="135" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="140" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="145" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="150" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="155" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="160" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="165" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="170" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="175" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="180" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="185" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="190" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="195" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="200" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="205" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="210" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="215" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="220" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="225" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="230" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="235" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="240" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="245" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="250" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="255" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="260" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="265" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="270" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="275" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="280" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="285" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="290" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="295" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="300" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="305" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="310" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="315" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="320" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="325" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="330" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="335" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="340" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="345" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="350" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="355" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="360" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="365" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="370" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="375" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="380" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="385" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="390" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="395" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="400" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="405" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="410" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="415" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="420" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="425" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="430" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="435" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="440" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="445" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+</svg>
+<div class="legend ">
+<div class="legend-item light legend-item-date-range"><span class="availability-time-line-legend-day-count"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">69</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> days ago</font></font></div>
+<div class="spacer"></div>
+<div class="legend-item legend-item-uptime-value">
+<span id="uptime-percent-9lgt8qqpcqck"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">00.01</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> % uptime
+</font></font></div>
+<div class="spacer"></div>
+<div class="legend-item light legend-item-date-range"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Today</font></font></div>
+</div>
+</div>
+</div>
+</div>
+<div class="component-container border-color">
+<div data-component-id="gvg1c6688r5y" class="component-inner-container status-green " data-component-status="Broken" data-js-hook="">
+<span class="name">
+CockFlare
+&nbsp;
+</span>
+<span class="tooltip-base tool tooltipstered">?</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+</div>
+</div>
+<div class="component-container border-color">
+<div data-component-id="r3wq1zsx72bz" class="component-inner-container status-green showcased" data-component-status="Broken" data-js-hook="">
+<span class="name">
+Media Proxy
+&nbsp;
+</span>
+<span class="tooltip-base tool tooltipstered">?</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+<div class="shared-partial uptime-90-days-wrapper">
+<svg class="availability-time-line-graphic" preserveAspectRatio="none" height="34" viewBox="0 0 448 34">
+<rect height="34" width="3" x="0" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="5" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="10" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="15" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="20" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="25" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="30" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="35" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="40" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="45" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="50" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="55" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="60" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="65" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="70" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="75" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="80" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="85" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="90" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="95" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="100" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="105" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="110" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="115" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="120" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="125" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="130" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="135" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="140" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="145" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="150" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="155" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="160" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="165" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="170" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="175" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="180" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="185" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="190" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="195" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="200" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="205" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="210" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="215" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="220" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="225" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="230" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="235" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="240" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="245" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="250" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="255" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="260" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="265" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="270" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="275" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="280" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="285" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="290" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="295" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="300" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="305" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="310" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="315" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="320" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="325" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="330" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="335" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="340" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="345" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="350" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="355" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="360" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="365" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="370" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="375" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="380" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="385" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="390" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="395" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="400" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="405" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="410" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="415" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="420" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="425" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="430" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="435" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="440" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+<rect height="34" width="3" x="445" y="0" fill="#FF0000" class="tool tooltipstered" data-html="true"></rect>
+</svg>
+<div class="legend ">
+<div class="legend-item light legend-item-date-range"><span class="availability-time-line-legend-day-count"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">69</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> days ago</font></font></div>
+<div class="spacer"></div>
+<div class="legend-item legend-item-uptime-value">
+<span id="uptime-percent-r3wq1zsx72bz">This is always fucked</span>
+</div>
+<div class="spacer"></div>
+<div class="legend-item light legend-item-date-range"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Today</font></font></div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="component-container border-color is-group ">
+<div data-component-id="jk03xttfcz9b" class="component-inner-container status-green " data-component-status="Broken" data-js-hook="component-group-opener">
+<span class="name"> 
+<span>
+Voice
+</span>
+</span>
+<span class="component-status tool tooltipstered">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+</div>
+
+<div class="child-components-container ">
+<div data-component-id="0cwvg0jp5cbg" class="component-inner-container status-green " data-component-status="Broken" data-js-hook="">
+<span class="name">
+EU West
+&nbsp;
+</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+</div>
+<div data-component-id="fc8y53dfg85y" class="component-inner-container status-green " data-component-status="Broken" data-js-hook="">
+<span class="name">
+EU Central
+&nbsp;
+</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+</div>
+<div data-component-id="q0lbnfc59j35" class="component-inner-container status-green " data-component-status="Broken" data-js-hook="">
+<span class="name">
+Singapore
+&nbsp;
+</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+</div>
+<div data-component-id="qbt7ryjc5tcd" class="component-inner-container status-green " data-component-status="Broken" data-js-hook="">
+<span class="name">
+Sydney
+&nbsp;
+</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+</div>
+<div data-component-id="nhlpbmmcffcl" class="component-inner-container status-green " data-component-status="Broken" data-js-hook="">
+<span class="name">
+US Central
+&nbsp;
+</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+</div>
+<div data-component-id="kdz8bp5dp08v" class="component-inner-container status-green " data-component-status="Broken" data-js-hook="">
+<span class="name">
+US East
+&nbsp;
+</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+</div>
+<div data-component-id="gmppldfdghcd" class="component-inner-container status-green " data-component-status="Broken" data-js-hook="">
+<span class="name">
+US South
+&nbsp;
+</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+</div>
+<div data-component-id="334vzyzzwlfs" class="component-inner-container status-green " data-component-status="Broken" data-js-hook="">
+<span class="name">
+US West
+&nbsp;
+</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+</div>
+<div data-component-id="sg02vq1rbfrr" class="component-inner-container status-green " data-component-status="Broken" data-js-hook="">
+<span class="name">
+Brazil
+&nbsp;
+</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+</div>
+<div data-component-id="0ysw0jy8hnsr" class="component-inner-container status-green " data-component-status="Broken" data-js-hook="">
+<span class="name">
+Hong Kong
+&nbsp;
+</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+</div>
+<div data-component-id="ccgfj3l84lvt" class="component-inner-container status-green " data-component-status="Broken" data-js-hook="">
+<span class="name">
+Russia
+&nbsp;
+</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+</div>
+<div data-component-id="xggnf9hnngkt" class="component-inner-container status-green " data-component-status="Broken" data-js-hook="">
+<span class="name">
+Japan
+&nbsp;
+</span>
+<span class="component-status">
+Broken
+</span>
+<span class="tool icon-indicator fa fa-check tooltipstered"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="component-statuses-legend font-small">
+<div class="legend-item status-green">
+<span class="icon-indicator fa fa-check"></span>
+Broken
+</div>
+<div class="legend-item status-yellow">
+<span class="icon-indicator fa fa-minus-square"></span>
+Degraded Performance
+</div>
+<div class="legend-item status-orange">
+<span class="icon-indicator fa fa-exclamation-triangle"></span>
+Partial Outage
+</div>
+<div class="breaker"></div>
+<div class="legend-item status-red">
+<span class="icon-indicator fa fa-times"></span>
+Major Outage
+</div>
+<div class="legend-item status-blue">
+<span class="icon-indicator fa fa-wrench"></span>
+Maintenance
+</div>
+</div>
+</div>
+
+<div class="custom-metrics-container" id="custom-metrics-container">
+<div class="timeframes-container">
+<a class="font-largest no-link" id="system-metrics" href="https://www.youtube.com/watch?v=yTGC5CZisQ4">The servers are on fire - help</a>
+<a href="https://www.youtube.com/watch?v=HfEvJek-cS4" class="timeframe color-secondary font-regular border-color" data-js-hook="data-time-period-toggle" data-time-period="month">Month</a>
+<a href="https://www.youtube.com/watch?v=HfEvJek-cS4" class="timeframe color-secondary font-regular border-color" data-js-hook="data-time-period-toggle" data-time-period="week"><span class="translation_missing" title="translation missing: en.week">Week</span></a>
+<a href="https://www.youtube.com/watch?v=HfEvJek-cS4" class="timeframe color-secondary font-regular border-color active" data-js-hook="data-time-period-toggle" data-time-period="day">Day</a>
+</div>
+<div class="metrics-container">
+ <div class="metric border-color">
+<div class="metric-meta font-large">
+<div class="metric-name color-primary">
+API Response Time
+</div>
+<div data-js-hook="metrics-display-current-ztt4777v23lf" class="metric-average color-secondary">0ms</div>
+</div>
+<div class="metrics-display-graph">
+<div class="graph-container" id="metrics-display-graph-container-ztt4777v23lf" style="height: 120px" data-highcharts-chart="0"><div class="highcharts-container" id="highcharts-0" style="position: relative; overflow: hidden; width: 800px; height: 120px; text-align: left; line-height: normal; z-index: 0; font-family: &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif; font-size: 12px;"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800" height="120"><desc>Created with Highstock 1.3.1</desc><defs><clippath id="highcharts-1"><rect fill="none" x="0" y="0" width="780" height="77"></rect></clippath></defs><rect rx="5" ry="5" fill="#ffffff" x="0" y="0" width="800" height="120"></rect><g class="highcharts-grid" zindex="1"></g><g class="highcharts-grid" zindex="1"><path fill="none" d="M 10 62.5 L 790 62.5" stroke-opacity="0.5" stroke="rgb(224,224,224)" stroke-width="1" zindex="1" opacity="1"></path><path fill="none" d="M 10 36.5 L 790 36.5" stroke-opacity="0.5" stroke="rgb(224,224,224)" stroke-width="1" zindex="1" opacity="1"></path><path fill="none" d="M 10 10.5 L 790 10.5" stroke-opacity="0.5" stroke="rgb(224,224,224)" stroke-width="1" zindex="1" opacity="1"></path><path fill="none" d="M 10 87.5 L 790 87.5" stroke-opacity="0.5" stroke="rgb(224,224,224)" stroke-width="1" zindex="1" opacity="1"></path></g><g class="highcharts-axis" zindex="2"><path fill="none" d="M 191.5 88 L 191.5 93" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 289.5 88 L 289.5 93" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 387.5 88 L 387.5 93" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 485.5 88 L 485.5 93" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 582.5 88 L 582.5 93" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 680.5 88 L 680.5 93" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 778.5 88 L 778.5 93" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 93.5 88 L 93.5 93" stroke="#C0D0E0" stroke-width="1" opacity="1"></path><path fill="none" d="M 10 87.5 L 790 87.5" stroke="#E0E0E0" stroke-width="1" zindex="7" visibility="visible"></path></g><g class="highcharts-axis" zindex="2"></g><g class="highcharts-series-group" zindex="3"><g class="highcharts-series" visibility="visible" zindex="0.1" transform="translate(10,10) scale(1 1)" clip-path="url(#highcharts-1)"><path fill="none" d="M -10 73.8 L 0 73.8 L 2.717770034843206 73.8 L 5.435540069686412 73.8 L 8.153310104529616 73.6 L 10.871080139372824 73.6 L 13.588850174216029 73.6 L 16.306620209059233 73.8 L 19.024390243902438 73.3 L 21.742160278745647 70.5 L 24.459930313588853 73.3 L 27.177700348432058 73.3 L 29.895470383275264 71.5 L 32.613240418118465 73.3 L 35.33101045296167 73.6 L 38.048780487804876 73.6 L 40.76655052264809 73.6 L 43.484320557491294 73.6 L 46.2020905923345 73.3 L 48.919860627177705 69.4 L 51.63763066202091 73.3 L 54.355400696864116 73.3 L 57.07317073170732 73.3 L 59.79094076655053 73.3 L 62.50871080139373 73.3 L 65.22648083623693 73.3 L 67.94425087108014 73.6 L 70.66202090592334 73.3 L 73.37979094076655 73.3 L 76.09756097560975 73.3 L 78.81533101045297 73.6 L 81.53310104529618 73.6 L 84.25087108013938 73.1 L 86.96864111498259 73.1 L 89.68641114982579 73.1 L 92.404181184669 73.1 L 95.1219512195122 73.3 L 97.83972125435541 73.6 L 100.55749128919861 73.1 L 103.27526132404182 73.1 L 105.99303135888502 72.8 L 108.71080139372823 73.3 L 111.42857142857143 72.5 L 114.14634146341464 71.2 L 116.86411149825784 70.7 L 119.58188153310105 73.1 L 122.29965156794425 73.1 L 125.01742160278746 73.1 L 127.73519163763066 73.3 L 130.45296167247386 73.6 L 133.1707317073171 68.9 L 135.8885017421603 73.3 L 138.60627177700349 73.3 L 141.32404181184668 73.1 L 144.0418118466899 73.3 L 146.7595818815331 73.3 L 149.4773519163763 73.3 L 152.1951219512195 72.8 L 154.91289198606273 73.1 L 157.63066202090593 72.3 L 160.34843205574913 73.3 L 163.06620209059236 73.3 L 165.78397212543555 73.3 L 168.50174216027875 62.4 L 171.21951219512195 73.1 L 173.93728222996518 73.1 L 176.65505226480838 73.3 L 179.37282229965157 73.1 L 182.09059233449477 73.1 L 184.808362369338 72.3 L 187.5261324041812 72.8 L 190.2439024390244 73.3 L 192.9616724738676 73.3 L 195.67944250871082 73.3 L 198.39721254355402 73.1 L 201.11498257839722 73.1 L 203.83275261324042 71.8 L 206.55052264808364 73.3 L 209.26829268292684 73.1 L 211.98606271777004 73.3 L 214.70383275261324 73.1 L 217.42160278745646 72.8 L 220.13937282229966 72.8 L 222.85714285714286 73.1 L 225.57491289198606 67.6 L 228.2926829268293 73.3 L 231.01045296167248 72 L 233.72822299651568 69.7 L 236.44599303135888 73.3 L 239.1637630662021 73.1 L 241.8815331010453 73.3 L 244.5993031358885 73.3 L 247.31707317073173 73.1 L 250.03484320557493 72.8 L 252.75261324041813 72.8 L 255.47038327526133 73.1 L 258.18815331010455 73.3 L 260.9059233449477 73.3 L 263.62369337979095 73.3 L 266.3414634146342 73.3 L 269.05923344947735 73.3 L 271.7770034843206 73.3 L 274.4947735191638 66.3 L 277.21254355400697 73.6 L 279.9303135888502 73.3 L 282.64808362369337 73.3 L 285.3658536585366 73.1 L 288.0836236933798 73.8 L 290.801393728223 73.6 L 293.5191637630662 73.8 L 296.23693379790944 73.3 L 298.9547038327526 73.6 L 301.67247386759584 73.8 L 304.390243902439 73.8 L 307.10801393728224 73.8 L 309.82578397212546 73.6 L 312.54355400696863 73.3 L 315.26132404181186 72.8 L 317.9790940766551 73.8 L 320.69686411149826 73.6 L 323.4146341463415 73.6 L 326.1324041811847 73.6 L 328.8501742160279 73.8 L 331.5679442508711 71.5 L 334.2857142857143 73.8 L 337.0034843205575 73.6 L 339.72125435540073 73.6 L 342.4390243902439 73.6 L 345.1567944250871 73.3 L 347.87456445993035 73.3 L 350.5923344947735 73.3 L 353.31010452961675 73.6 L 356.0278745644599 73.8 L 358.74564459930315 73.6 L 361.4634146341464 73.3 L 364.18118466898954 73.8 L 366.89895470383277 73.6 L 369.616724738676 73.8 L 372.33449477351917 73.8 L 375.0522648083624 46.3 L 377.77003484320556 73.3 L 380.4878048780488 73.6 L 383.205574912892 73.3 L 385.9233449477352 73.8 L 388.6411149825784 71.8 L 391.35888501742164 73.8 L 394.0766550522648 73.6 L 396.79442508710804 73.8 L 399.51219512195127 73.8 L 402.22996515679444 73.8 L 404.94773519163766 73.8 L 407.66550522648083 73.8 L 410.38327526132406 73.6 L 413.1010452961673 73.3 L 415.81881533101046 73.6 L 418.5365853658537 73.6 L 421.2543554006969 73.8 L 423.9721254355401 73.6 L 426.6898954703833 73.8 L 429.4076655052265 73.8 L 432.1254355400697 73.8 L 434.84320557491293 73.8 L 437.5609756097561 73.8 L 440.2787456445993 73.8 L 442.99651567944255 73.8 L 445.7142857142857 73.8 L 448.43205574912895 73.6 L 451.1498257839721 74.1 L 453.86759581881535 73.8 L 456.5853658536586 74.1 L 459.30313588850174 74.1 L 462.02090592334497 74.1 L 464.7386759581882 73.8 L 467.45644599303137 16.4 L 470.1742160278746 73.8 L 472.89198606271776 74.1 L 475.609756097561 73.6 L 478.3275261324042 73.8 L 481.0452961672474 73.8 L 483.7630662020906 74.4 L 486.48083623693384 74.1 L 489.198606271777 74.1 L 491.91637630662024 74.1 L 494.63414634146346 74.1 L 497.35191637630663 74.1 L 500.06968641114986 74.1 L 502.78745644599303 74.1 L 505.50522648083626 74.4 L 508.2229965156795 74.1 L 510.94076655052265 73.8 L 513.6585365853658 74.1 L 516.3763066202091 72.5 L 519.0940766550523 74.4 L 521.8118466898954 74.4 L 524.5296167247387 73.8 L 527.2473867595819 74.4 L 529.9651567944251 74.4 L 532.6829268292684 74.1 L 535.4006968641115 74.1 L 538.1184668989547 74.6 L 540.836236933798 74.1 L 543.5540069686411 74.1 L 546.2717770034843 74.1 L 548.9895470383276 74.4 L 551.7073170731708 74.4 L 554.4250871080139 74.1 L 557.1428571428572 74.1 L 559.8606271777004 74.4 L 562.5783972125436 74.1 L 565.2961672473867 73.8 L 568.01393728223 74.6 L 570.7317073170732 74.4 L 573.4494773519164 74.1 L 576.1672473867596 68.1 L 578.8850174216028 74.1 L 581.602787456446 74.4 L 584.3205574912893 74.4 L 587.0383275261324 74.4 L 589.7560975609756 74.1 L 592.4738675958189 74.4 L 595.1916376306621 74.4 L 597.9094076655052 74.4 L 600.6271777003485 74.1 L 603.3449477351917 72.8 L 606.0627177700349 74.1 L 608.780487804878 74.1 L 611.4982578397213 74.1 L 614.2160278745645 74.4 L 616.9337979094076 74.4 L 619.6515679442509 74.4 L 622.3693379790941 74.4 L 625.0871080139373 74.6 L 627.8048780487806 74.6 L 630.5226480836237 74.4 L 633.2404181184669 74.4 L 635.9581881533102 74.6 L 638.6759581881533 74.4 L 641.3937282229965 74.1 L 644.1114982578398 74.6 L 646.829268292683 74.6 L 649.5470383275261 74.4 L 652.2648083623694 74.6 L 654.9825783972126 74.1 L 657.7003484320558 74.4 L 660.4181184668989 74.6 L 663.1358885017422 74.6 L 665.8536585365854 74.4 L 668.5714285714286 74.4 L 671.2891986062718 74.4 L 674.006968641115 74.4 L 676.7247386759582 74.4 L 679.4425087108015 74.6 L 682.1602787456446 74.4 L 684.8780487804878 74.4 L 687.5958188153311 74.4 L 690.3135888501743 74.6 L 693.0313588850174 74.4 L 695.7491289198607 74.4 L 698.4668989547039 74.4 L 701.184668989547 74.4 L 703.9024390243902 74.4 L 706.6202090592335 74.4 L 709.3379790940767 74.4 L 712.0557491289198 74.4 L 714.7735191637631 74.4 L 717.4912891986063 74.4 L 720.2090592334495 72.8 L 722.9268292682927 74.4 L 725.6445993031359 74.4 L 728.3623693379791 72.8 L 731.0801393728224 74.4 L 733.7979094076655 74.1 L 736.5156794425087 74.1 L 739.233449477352 74.4 L 741.9512195121952 74.1 L 744.6689895470383 74.1 L 747.3867595818816 72.3 L 750.1045296167248 73.1 L 752.822299651568 72.3 L 755.5400696864111 74.1 L 758.2578397212544 73.6 L 760.9756097560976 73.6 L 763.6933797909408 74.1 L 766.411149825784 73.8 L 776.411149825784 73.8" class="highcharts-tracker highcharts-tracker" stroke-linejoin="round" visibility="visible" stroke-opacity="0.0001" stroke="rgb(192,192,192)" stroke-width="22" zindex="2" style=""></path></g></g><g class="highcharts-axis-labels" zindex="7"><text x="94.25087108013938" y="102" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#99aab5;cursor:default;line-height:14px;fill:#99aab5;" text-anchor="middle" opacity="1"><tspan x="94.25087108013938">18:00</tspan></text><text x="192.09059233449477" y="102" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#99aab5;cursor:default;line-height:14px;fill:#99aab5;" text-anchor="middle" opacity="1"><tspan x="192.09059233449477">21:00</tspan></text><text x="289.9303135888502" y="102" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#99aab5;cursor:default;line-height:14px;fill:#99aab5;" text-anchor="middle" opacity="1"><tspan x="289.9303135888502">22. Jul</tspan></text><text x="387.77003484320556" y="102" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#99aab5;cursor:default;line-height:14px;fill:#99aab5;" text-anchor="middle" opacity="1"><tspan x="387.77003484320556">03:00</tspan></text><text x="485.609756097561" y="102" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#99aab5;cursor:default;line-height:14px;fill:#99aab5;" text-anchor="middle" opacity="1"><tspan x="485.609756097561">06:00</tspan></text><text x="583.4494773519164" y="102" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#99aab5;cursor:default;line-height:14px;fill:#99aab5;" text-anchor="middle" opacity="1"><tspan x="583.4494773519164">09:00</tspan></text><text x="681.2891986062718" y="102" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#99aab5;cursor:default;line-height:14px;fill:#99aab5;" text-anchor="middle" opacity="1"><tspan x="681.2891986062718">12:00</tspan></text><text x="774.3515625" y="102" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#99aab5;cursor:default;line-height:14px;fill:#99aab5;" text-anchor="middle" opacity="1"><tspan x="774.3515625">15:00</tspan></text></g><g class="highcharts-axis-labels" zindex="7"><text x="12" y="86" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:370px;color:#99aab5;cursor:default;line-height:14px;fill:#99aab5;" text-anchor="start" opacity="1"><tspan x="12">0</tspan></text><text x="12" y="60" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:370px;color:#99aab5;cursor:default;line-height:14px;fill:#99aab5;" text-anchor="start" opacity="1"><tspan x="12">100</tspan></text><text x="12" y="34" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:370px;color:#99aab5;cursor:default;line-height:14px;fill:#99aab5;" text-anchor="start" opacity="1"><tspan x="12">200</tspan></text><text x="12" y="8" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:11px;width:370px;color:#99aab5;cursor:default;line-height:14px;fill:#99aab5;" text-anchor="start" opacity="1"><tspan x="12">300</tspan></text></g><g class="highcharts-tooltip" zindex="8" style="cursor:default;padding:0;white-space:nowrap;" visibility="hidden"><rect rx="3" ry="3" fill="none" x="0.5" y="0.5" width="16" height="16" fill-opacity="0.85" isshadow="true" stroke="black" stroke-opacity="0.049999999999999996" stroke-width="5" transform="translate(1, 1)"></rect><rect rx="3" ry="3" fill="none" x="0.5" y="0.5" width="16" height="16" fill-opacity="0.85" isshadow="true" stroke="black" stroke-opacity="0.09999999999999999" stroke-width="3" transform="translate(1, 1)"></rect><rect rx="3" ry="3" fill="none" x="0.5" y="0.5" width="16" height="16" fill-opacity="0.85" isshadow="true" stroke="black" stroke-opacity="0.15" stroke-width="1" transform="translate(1, 1)"></rect><rect rx="3" ry="3" fill="rgb(255,255,255)" x="0.5" y="0.5" width="16" height="16" fill-opacity="0.85"></rect><text x="8" y="21" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Verdana, Arial, Helvetica, sans-serif;font-size:12px;color:#333333;fill:#333333;" zindex="1"></text></g></svg></div></div>
+</div>
+</div>
+</div>
+</div>
+<div class="incidents-list format-expanded">
+<a class="font-largest no-link" id="past-incidents" href="https://www.youtube.com/watch?v=yxKjmkPuol0">Piss log</a>
+<div class="status-day font-regular no-incidents">
+<div class="date border-color font-large">Jul <var data-var="date">22</var>, <var data-var="year">2018</var></div>
+<p class="color-secondary">We are planning to have <b>some</b> uptime today.</p>
+</div>
+<div class="status-day font-regular no-incidents">
+<div class="date border-color font-large">Jul <var data-var="date">21</var>, <var data-var="year">2018</var></div>
+<p class="color-secondary">Offline for the whole day</p>
+</div>
+<div class="status-day font-regular no-incidents">
+<div class="date border-color font-large">Jul <var data-var="date">20</var>, <var data-var="year">2018</var></div>
+<p class="color-secondary">Offline for the whole day</p>
+</div>
+<div class="status-day font-regular no-incidents">
+<div class="date border-color font-large">Jul <var data-var="date">19</var>, <var data-var="year">2018</var></div>
+<p class="color-secondary">Offline for the whole day</p>
+</div>
+<div class="status-day font-regular no-incidents">
+<div class="date border-color font-large">Jul <var data-var="date">18</var>, <var data-var="year">2018</var></div>
+<p class="color-secondary">Offline for the whole day</p>
+</div>
+<div class="status-day font-regular ">
+<div class="date border-color font-large">Jul <var data-var="date">17</var>, <var data-var="year">2018</var></div>
+<div class="incident-container">
+<div class="incident-title impact-critical font-large">
+<a href="https://youtu.be/KM2Lh8nI6Yc">Issues giving a fuck</a>
+</div>
+<div class="updates-container">
+<div class="update font-regular resolved">
+<strong>Resolved</strong> -
+This incident has been made worse - it probably works well enough
+<br>
+<small>
+Jul <var data-var="date">17</var>, <var data-var="time">69:69</var> STD
+</small>
+</div>
+<div class="update font-regular monitoring">
+<strong>Monitoring</strong> -
+K i plugged it back in
+<br>
+<small>
+Jul <var data-var="date">17</var>, <var data-var="time">13:00</var> STD
+</small>
+</div>
+<div class="update font-regular update">
+<strong>Update</strong> -
+i blame anyone who uses client mods
+<br>
+<small>
+Jul <var data-var="date">17</var>, <var data-var="time">12:39</var> STD
+</small>
+</div>
+<div class="update font-regular update">
+<strong>Update</strong> -
+I need another piss - brb
+<br>
+<small>
+Jul <var data-var="date">17</var>, <var data-var="time">12:32</var> STD
+</small>
+</div>
+<div class="update font-regular identified">
+<strong>Identified</strong> -
+I pulled out my internet cable, for fuck sakes.
+<br>
+<small>
+Jul <var data-var="date">17</var>, <var data-var="time">12:27</var> STD
+</small>
+</div>
+<div class="update font-regular investigating">
+<strong>Investigating</strong> -
+I just need to have a piss, one sec.
+<br>
+<small>
+Jul <var data-var="date">17</var>, <var data-var="time">12:18</var> STD
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="status-day font-regular no-incidents">
+<div class="date border-color font-large">Jul <var data-var="date">16</var>, <var data-var="year">2018</var></div>
+<p class="color-secondary">Offline for the whole day</p>
+</div>
+<div class="status-day font-regular no-incidents">
+<div class="date border-color font-large">Jul <var data-var="date">15</var>, <var data-var="year">2018</var></div>
+<p class="color-secondary">Offline for the whole day</p>
+</div>
+<div class="status-day font-regular no-incidents">
+<div class="date border-color font-large">Jul <var data-var="date">14</var>, <var data-var="year">2018</var></div>
+<p class="color-secondary">Offline for the whole day</p>
+</div>
+<div class="status-day font-regular ">
+<div class="date border-color font-large">Jul <var data-var="date">13</var>, <var data-var="year">2018</var></div>
+<div class="incident-container">
+<div class="incident-title impact-none font-large">
+<a href="https://www.youtube.com/watch?v=yxKjmkPuol0">I can't spam ping anyone</a>
+</div>
+<div class="updates-container">
+<div class="update font-regular resolved">
+<strong>Resolved</strong> -
+i managed to ping b1nzy inb4 he bans me
+<br>
+<small>
+Jul <var data-var="date">13</var>, <var data-var="time">15:30</var> STD
+</small>
+</div>
+<div class="update font-regular monitoring">
+<strong>Monitoring</strong> -
+i found a server with b1nzy
+<br>
+<small>
+Jul <var data-var="date">13</var>, <var data-var="time">14:39</var> STD
+</small>
+</div>
+<div class="update font-regular identified">
+<strong>Identified</strong> -
+i have a desperate need to ping someone
+<br>
+<small>
+Jul <var data-var="date">13</var>, <var data-var="time">14:28</var> STD
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="status-day font-regular ">
+<div class="date border-color font-large">Jul <var data-var="date">12</var>, <var data-var="year">2018</var></div>
+<div class="incident-container">
+<div class="incident-title impact-major font-large">
+<a href="https://www.youtube.com/watch?v=yxKjmkPuol0">FBI takeover</a>
+</div>
+<div class="updates-container">
+<div class="update font-regular resolved">
+<strong>Resolved</strong> -
+discord saw <a href="https://www.youtube.com/watch?v=yxKjmkPuol0">this</a> and it made them feel better
+<br>
+<small>
+Jul <var data-var="date">12</var>, <var data-var="time">14:27</var> STD
+</small>
+</div>
+<div class="update font-regular monitoring">
+<strong>Banned</strong> -
+b1nzy banned 25% of discord for making discord darker
+<br>
+<small>
+Jul <var data-var="date">12</var>, <var data-var="time">13:35</var> STD
+</small>
+</div>
+<div class="update font-regular update">
+<strong>Update</strong> -
+oh right discord is down probably should do something about all those client mods
+<br>
+<small>
+Jul <var data-var="date">12</var>, <var data-var="time">13:00</var> STD
+</small>
+</div>
+<div class="update font-regular investigating">
+<strong>Investigating</strong> -
+at an fbi level
+<br>
+<small>
+Jul <var data-var="date">12</var>, <var data-var="time">13:00</var> STD
+</small>
+</div>
+<div class="update font-regular monitoring">
+<strong>Monitoring</strong> -
+we're now watching your cringy minecraft server get ddosed
+<br>
+<small>
+Jul <var data-var="date">12</var>, <var data-var="time">12:39</var> STD
+</small>
+</div>
+<div class="update font-regular investigating">
+<strong>Fucking</strong> -
+wait what
+<br>
+<small>
+Jul <var data-var="date">12</var>, <var data-var="time">12:15</var> STD
+</small>
+</div>
+<div class="update font-regular monitoring">
+<strong>Monitoring</strong> -
+you
+<br>
+<small>
+Jul <var data-var="date">12</var>, <var data-var="time">11:26</var> STD
+</small>
+</div>
+<div class="update font-regular investigating">
+<strong>Investigating</strong> -
+were reading your cringy hypesquad applications
+<br>
+<small>
+Jul <var data-var="date">12</var>, <var data-var="time">11:15</var> STD
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="status-day font-regular ">
+<div class="date border-color font-large">Jul <var data-var="date">11</var>, <var data-var="year">2018</var></div>
+<div class="incident-container">
+<div class="incident-title impact-major font-large">
+<a href="https://www.youtube.com/watch?v=yxKjmkPuol0">Mental issues</a>
+</div>
+<div class="updates-container">
+<div class="update font-regular resolved">
+<strong>Resolved</strong> -
+the cops are here 👮👮👮
+<br>
+<small>
+Jul <var data-var="date">11</var>, <var data-var="time">07:20</var> STD
+</small>
+</div>
+<div class="update font-regular monitoring">
+<strong>Monitoring</strong> -
+nvm the call dropped
+<br>
+<small>
+Jul <var data-var="date">11</var>, <var data-var="time">07:09</var> STD
+</small>
+</div>
+<div class="update font-regular identified">
+<strong>Identified</strong> -
+I found my skype login
+<br>
+<small>
+Jul <var data-var="date">11</var>, <var data-var="time">07:06</var> STD
+</small>
+</div>
+<div class="update font-regular investigating">
+<strong>Investigating</strong> -
+I've gone fucking insane
+<br>
+<small>
+Jul <var data-var="date">11</var>, <var data-var="time">07:03</var> STD
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="status-day font-regular no-incidents">
+<div class="date border-color font-large">Jul <var data-var="date">10</var>, <var data-var="year">2018</var></div>
+<p class="color-secondary">Offline for the whole day</p>
+</div>
+<div class="status-day font-regular no-incidents">
+<div class="date border-color font-large">Jul <var data-var="date"> 9</var>, <var data-var="year">2018</var></div>
+<p class="color-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Offline for the whole day</font></font></p>
+</div>
+<div class="status-day font-regular no-incidents">
+<div class="date border-color font-large">Jul <var data-var="date"> 8</var>, <var data-var="year">2018</var></div>
+<p class="color-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Offline for the whole day</font></font></p>
+</div>
+</div>
+<div class="page-footer border-color font-small">
+<a href="https://www.youtube.com/watch?v=yxKjmkPuol0" class="history-footer-link"><span style="font-family:arial">←</span> Meme History</a>
+<span class="color-secondary powered-by" style="display: inline !important; visibility:visible !important; opacity: 1 !important; position:static !important; text-indent:0px !important; transform:scale(1) !important">
+<a href="https://www.youtube.com/watch?v=yxKjmkPuol0" target="_blank" class="color-secondary" rel="noopener noreferrer nofollow">Created by ThatLifeofGames and modified by Creatable for use on discord-app.com</a><br>Pisscorp logo was created by Hyper/Tezz/whatever the fuck the username even is
+</span>
+</div>
+</div>
+</div>
+</body></html>
